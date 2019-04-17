@@ -11,6 +11,11 @@ import { HeroService } from '../hero.service';
 })
 export class HeroDetailComponent implements OnInit {
 
+  save(): void {
+    this.heroService.updateHero(this.hero) 
+      .subscribe(() => this.goBack());
+  }
+
   @Input() hero: Hero;
 
   constructor(
