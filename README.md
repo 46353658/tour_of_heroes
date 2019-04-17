@@ -1,3 +1,7 @@
+### $ ng generate module app-routing --flat --module=app (commit before this issue: c-> 5. Routing)
+        ERROR! src/app/app-routing.module.ts already exists.
+        The Schematic workflow failed. See above.
+
 # AngularTourOfHeroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
